@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".heart_rate_max">
+
+    <TextView
+        android:id="@+id/realTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:id="@+id/realTimeBpm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EF151E"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <TextView
+        android:id="@+id/warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="심박수 경고 임계치를 넘었습니다."
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

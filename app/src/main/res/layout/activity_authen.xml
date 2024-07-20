@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CJ HEALTH 앱에"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="권한을 허용합니다"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <Button
+        android:id="@+id/allowButton"
+        android:layout_width="50dp"
+        android:layout_height="38dp"
+        android:text="허용"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/denyButton"
+        android:layout_width="50dp"
+        android:layout_height="38dp"
+        android:text="거부"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
