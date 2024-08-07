@@ -1,4 +1,4 @@
-package com.example.worker_wearos
+package com.example.worker_wearos.presentation
 
 import android.os.Bundle
 import android.util.Log
@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import android.content.Intent
+import com.example.worker_wearos.R
 
 class heart_rate : AppCompatActivity() {
 

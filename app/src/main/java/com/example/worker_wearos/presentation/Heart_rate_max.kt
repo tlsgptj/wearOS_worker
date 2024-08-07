@@ -1,9 +1,10 @@
-package com.example.worker_wearos
+package com.example.worker_wearos.presentation
 
 import android.os.Bundle
 import android.text.format.DateFormat
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.worker_wearos.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import java.util.*

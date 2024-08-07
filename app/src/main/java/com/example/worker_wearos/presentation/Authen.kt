@@ -1,10 +1,11 @@
-package com.example.worker_wearos
+package com.example.worker_wearos.presentation
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.worker_wearos.R
 
 class authen : AppCompatActivity() {
 
